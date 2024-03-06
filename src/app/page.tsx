@@ -32,7 +32,7 @@ export default function Home() {
 
   useEffect(() => {
     setUserInfo(() => session?.user)
-    window.Kakao.Auth.setAccessToken(session!.user!.accessToken);
+    window.Kakao?.Auth.setAccessToken(session!.user!.accessToken);
   },[session])
   
   const selectFriends = async () => {
