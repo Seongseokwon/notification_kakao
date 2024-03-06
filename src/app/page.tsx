@@ -100,7 +100,7 @@ export default function Home() {
 
   return (
     <div>
-      <button type="button" onClick={() => signIn('kakao')}>카카오 로그인</button>
+      <button type="button" onClick={() => signIn('kakao')}><img src="/kakao_login_medium.png"/></button>
     </div>
   )
   
